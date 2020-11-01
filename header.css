@@ -1,0 +1,25 @@
+/* Colors and fonts */
+
+body{
+	background-color: #ffffff;
+    color: #458773;
+    font-family: avenir;
+    font-size: 16px;}
+
+a{
+	color: #458773;
+	text-decoration: none;
+}
+
+/* Custom design with class */
+
+.header-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.logo-size {
+  width: 180px;
+}

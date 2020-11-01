@@ -1,0 +1,74 @@
+/* Colors and fonts */
+
+body{
+	background-color: #ffffff;
+    color: #458773;
+    font-family: avenir;
+    font-size: 16px;}
+
+h2 {
+	color: #FD5523;
+	font-size: 32px;
+	font-family: avenir;
+}
+
+a{
+	color: #458773;
+	text-decoration: none;
+}
+
+
+/* Custom design with class */
+
+.header-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.logo-size {
+  width: 180px;
+}
+
+.container{
+	background: #A5C0A0;
+    padding: 15px;
+    margin: 50px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    width: 944px;
+    height: 325px;
+}
+
+.text-align{
+  text-align: center;
+}
+
+.table-style{
+  margin: 1px 10px;
+  width: 600px;
+  height: 165px;
+}
+
+.texte-align{
+  text-align: left;
+}
+
+.texte-alignment{
+  text-align: right;
+}
+
+.btn-green{
+	background-color: #458773;
+	color:#FFFFFF;
+	padding: 10px 25px;
+}
+
+.text-alignment{
+	text-align: end;
+}
+
+.font-size{
+	font-size: 10px;
+	font-style: italic;
+}
