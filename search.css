@@ -1,0 +1,248 @@
+body {
+  background-color: #E5E5E5;
+  font-family: 'Avenir', sans-serif;
+}
+
+a {
+  color: #458773;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3 ease;
+}
+
+a:hover {
+  color: black;
+}
+
+/*CSS for Header*/
+
+.header-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  height: 104px;
+}
+
+.nav-style {
+  padding: 40px;
+}
+
+.nav-right {
+  padding-left: 190px;
+  padding-right: 60px;
+}
+
+.logo-size {
+  width: 180px;
+  padding: 10px 10px;
+}
+
+/*CSS for main elements*/
+.form-style {
+  height: 48px;
+  width: 252px;
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+  border: none;
+  padding: 10px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 82px;
+  margin-top: 7px;
+}
+
+.btn-margin {
+  margin-left: 25px;
+  margin-top: -45px;
+  font-size: 20px;
+}
+
+ #pet {
+    margin-left: 40px;
+  }
+
+
+.card-green {
+  background-color: #90AB8F;
+    width: 672px ;
+    height: 121px;
+  padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+    margin: 40px 80px;
+  }
+
+  #card1 {
+    margin: -50px 30px 9px 80px;
+  }
+
+
+ .avatar-style {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  margin-left: -100px;
+  margin-top: -31px;
+ }
+
+ .rating-style {
+  width: 200px;
+  list-style: none;
+  font-size: 25px;
+  margin-top: -90px;
+  color: black;
+  padding-left: 0px;
+  padding-right: 130px;
+}
+
+.rating-style > li {
+  display: inline;
+
+}
+
+h2 {
+  color: #FD5523;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -90px;
+  margin-right: 80px;
+  padding-right: 0px;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: lighter;
+  margin-top: -145px;
+  margin-left: 127px;
+}
+
+p {
+font-size: 16px;
+margin: -110px 130px;
+}
+
+
+.price-align {
+  float: left;
+  margin: 35px -100px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.price-style {
+  color: #FD5523;
+  font-family: 'Avenir', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0px 4px rgba(0,0,0,.1);
+  line-height: 50px;
+}
+
+/*CSS for other components */
+.input-style {
+  background-color: #E4E4E4;
+  height: 44px;
+  width: 141px;
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+  border: none;
+  padding: 10px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 82px;
+  margin-left: 15px;
+  margin-top: 7px;
+}
+
+#date-margin {
+  margin-left: 68px;
+}
+
+aside {
+  margin: -800px 68px;
+  float: right;
+}
+
+/*CSS for Footer*/
+.list-align {
+  padding-left: 40px;
+}
+
+.icon-align {
+  list-style: none;
+  text-align: right;
+  font-size: 30px;
+  margin-left: 1000px;
+}
+
+.icon-align > li {
+  display: inline;
+  padding-right: 0px 30px;
+}
+
+#map-size {
+  width: 110%;
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+}
+
+.footer-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  height: 104px;
+}
+
+/*CSS for Pagination */
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
