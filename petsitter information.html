@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Key'Pers, connecting pet lovers</title>
+    <meta name="description" content="Key'Pers is an online petsitting platform.">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="petsitter information.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-color">
+            <table>
+                <tr>
+                    <td>
+                        <a href="#"> <img src="images/logo.jpg" alt="Logo" class="logo-size"> </a>
+                    </td>
+                    <td>
+                        <a href="#">🔍 Search a pet-sitter</a>
+                    </td>
+                    <td>
+                        <a href="#">♡ Become a pet-sitter</a>
+                    </td>
+                    <td>
+                        <a href="#">🐾 Discover our services</a>
+                    </td>
+                    <td>
+                        <a href="#">Sign up / Login</a>
+                    </td>
+                    <td>
+                        <a href="#">Help</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+            <div class="green-box">
+                <div class="green-box-tittle">
+                    <h1>Personnal information</h1>
+                </div>
+                <div class="selectors">
+                    <table class="table-dropdown">
+                        <tr>
+                            <td>
+                                <select id="accomodation" name="choose type of accomodation" class="selector-style">
+                                    <option value="A">Type of accomodation</option>
+                                    <option value="B">House</option>
+                                    <option value="C">Ground floor appartment</option>
+                                    <option value="D">Appartment</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select id="children" name="Number of children" class="selector-style">
+                                    <option value="A">Number of children</option>
+                                    <option value="B">No children</option>
+                                    <option value="B">1 child</option>
+                                    <option value="C">2 children</option>
+                                    <option value="D">3 children or more</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select id="outdoor facilities" name="Outdoor facilities" class="selector-style">
+                                    <option value="A">Outdoor facilities</option>
+                                    <option value="B">Garden</option>
+                                    <option value="B">Balcony</option>
+                                    <option value="C">None</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select id="animals possessed" name="Animals possessed" class="selector-style">
+                                    <option value="A">Animals possessed</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="green-box-second-tittle">
+                    <h2>Animals accepted</h2>
+                </div>
+
+                <div class="animals-checkbox">
+                    <table class="table-animals">
+                        <tr>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-cat" id="animals-icon"></i><br>
+                                <input type="checkbox" id="cat" name="cat" checked>
+                                <label for="scales">Cat</label>
+                            </td>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-dog" id="animals-icon"></i><br>
+                                <input type="checkbox" id="dog" name="dog">
+                                <label for="scales">Dog</label>
+
+                            </td>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-frog" id="animals-icon"></i><br>
+                                <input type="checkbox" id="amphibian" name="amphibian" checked>
+                                <label for="scales">Amphibian</label>
+
+                            </td>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-spider" id="animals-icon"></i><br>
+                                <input type="checkbox" id="insect" name="insect">
+                                <label for="scales">Insect</label>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-otter" id="animals-icon"></i><br>
+                                <input type="checkbox" id="rodent" name="rodent">
+                                <label for="scales">Rodent</label>
+
+                            </td>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-horse" id="animals-icon"></i><br>
+                                <input type="checkbox" id="horse" name="horse" checked>
+                                <label for="scales">Horse</label>
+
+                            </td>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-dove" id="animals-icon"></i><br>
+                                <input type="checkbox" id="birds" name="bird">
+                                <label for="scales">Bird</label>
+
+                            </td>
+                            <td style="padding: 10px;">
+                                <i class="fas fa-fish" id="animals-icon"></i><br>
+                                <input type="checkbox" id="fish" name="fish" checked>
+                                <label for="scales">Fish</label>
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="save-changes">
+                    <a href="#" class="btn-green"> Save changes</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="footer-color">
+            <ul class="list-align">
+                <li>About us</li>
+                <li>Terms of use</li>
+            </ul>
+
+            <ul class="icon-align">
+                <li>
+                    <a href="#"></a>
+                    <i class="fab fa-youtube"></i>
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <i class="fas fa-at"></i>
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <i class="fab fa-facebook"></i>
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <i class="fab fa-instagram"></i>
+                </li>
+            </ul>
+        </div>
+    </footer>
