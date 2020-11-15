@@ -1,0 +1,22 @@
+@import url("css/petsitter-registration.css")
+
+/* Colors and fonts */
+
+body{
+	background-color: #ffffff;
+  color: #458773;
+  font-family: avenir;
+  font-size: 16px;}
+
+h2 {
+	color: #FD5523;
+	font-size: 40px;
+	font-family: avenir;
+  margin-top: -45px;
+  text-shadow: 0px 4px rgba(0,0,0,0.1)
+}
+
+a{
+	color: #458773;
+	text-decoration: none;
+}
