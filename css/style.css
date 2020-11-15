@@ -23,3 +23,7 @@ a{
 	color: #458773;
 	text-decoration: none;
 }
+
+a:hover {
+  color: black;
+}
