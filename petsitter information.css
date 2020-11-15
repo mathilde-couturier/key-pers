@@ -1,0 +1,249 @@
+/* Colors and fonts */
+
+html,
+body {
+    background-color: #ffffff;
+    color: #25312c;
+    font-family: avenir;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #FD5523;
+    font-family: 'Avenir', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 4px rgba(0, 0, 0, .1);
+}
+
+h2 {
+    color: #25312c;
+    font-family: 'Avenir', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    /* margin-top: -110px;
+    margin-left: 700px; */
+    text-shadow: 0px 4px rgba(0, 0, 0, .1);
+    /* padding-top: 10px; */
+}
+
+a {
+    color: #458773;
+    text-decoration: none;
+}
+
+.form-style {
+    height: 53px;
+    width: 346px;
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 25%);
+    border: none;
+    /* padding: 10px; */
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    /* margin-bottom: 45px; */
+}
+
+
+/* Main parts */
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 66px;
+}
+
+main {
+    margin-top: 66px;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+}
+
+
+/* Custom design with class */
+
+.header-color {
+    background-color: #F0C899;
+    color: #458773;
+    font-size: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    width: 100%;
+    height: 66px;
+}
+
+.logo-size {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    margin-top: 13%;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding: 70px;
+    margin: 50px auto; */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.green-box {
+    position: relative;
+    background: #A5C0A0;
+    width: 100%;
+    height: 440px;
+}
+
+.green-box-tittle {
+    position: relative;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    top: -30px;
+}
+
+.green-box-second-tittle {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 60%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.selectors {
+    position: absolute;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    left: 30px;
+}
+
+.table-animals {
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+}
+
+.table-dropdown {
+    border-collapse: separate;
+    border-spacing: 15px 15px;
+}
+
+.animals-checkbox {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+#animals-icon {
+    text-align: center;
+    font-size: 5em;
+    width: 90px;
+    height: 90px;
+}
+
+.table-style {
+    margin: 1px 10px;
+    width: 600px;
+    height: 165px;
+}
+
+.font-size {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.selector-style {
+    height: 53px;
+    width: 346px;
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 25%);
+    border: none;
+    padding: 10px;
+    font-family: 'Avenir', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.save-changes {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    right: 10px;
+    bottom: 10px;
+}
+
+.btn-green {
+    background-color: #458773;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding: 10px 25px;
+    width: 150px;
+    height: 50px;
+}
+
+
+/* Style the footer */
+
+.footer-color {
+    background-color: #F0C899;
+    color: #458773;
+    font-size: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+    padding: 30px 30px;
+    padding-bottom: 1px;
+    padding-top: 40px;
+    left: 0px;
+}
+
+.list-align {
+    list-style: none;
+    padding-left: 0px;
+    display: inline;
+    padding: 0px 20px;
+    font-weight: 800;
+}
+
+.list-align>li {
+    display: inline;
+    padding: 15px;
+    padding-top: 10px
+}
+
+.icon-align {
+    list-style: none;
+    padding-right: 50px;
+    text-align: right;
+    font-size: 40px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.icon-align>li {
+    display: inline;
+    padding-right: 0px 30px;
+}
