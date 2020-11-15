@@ -1,2 +1,31 @@
 /Containers/
 
+.container{
+	background: #A5C0A0;
+  padding: 15px;
+  margin: 100px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  width: 800px;
+  height: 400px;
+}
+
+.table-style{
+  margin: 1px 10px;
+  width: 600px;
+  height: 165px;
+}
+
+.text-align{
+  text-align: center;
+}
+
+.texte-align{
+  text-align: left;
+}
+
+.texte-alignment{
+  text-align: right;
+}
+
+.text-alignment{
+	text-align: end;
