@@ -5,29 +5,30 @@
 @import url("css/filtering.css")
 @import url("css/footer.css")
 
-/* Colors and fonts */
+/* Titles, body and links*/
 
-body{
+body {
 background-color: #ffffff;
-  color: #458773;
-  font-family: avenir;
-  font-size: 16px;
+color: #458773;
+font-family: Avenir, sans-serif;
 margin: 0px 0px;
 }
 
 h1 {
-	color: #FD5523;
-	font-size: 40px;
-	font-family: avenir;
-  margin-top: -45px;
-  text-shadow: 0px 4px rgba(0,0,0,0.1)
+color: #FD5523;
+font-size: 40px;
+font-family: avenir;
+margin-top: -45px;
+text-align: center;
+text-shadow: 0px 4px rgba(0,0,0,0.1)
 }
 
-a{
-	color: #458773;
-	text-decoration: none;
+a {
+color: #458773;
+text-decoration: none;
 }
 
 a:hover {
-  color: black;
+ color: black;
 }
+
