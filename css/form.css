@@ -1,0 +1,55 @@
+/*CSS for dropdown menu */
+
+.form-style {
+  height: 53px;
+  width: 346px;
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+  border: none;
+  padding: 10px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 62px;
+  box-sizing: border-box;
+}
+
+.smallerform-style {
+  height: 53px;
+  width: 252px;
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+  border: none;
+  padding: 10px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 62px;
+}
+
+/* CSS for input form */
+
+.input-style {
+  background-color: #E4E4E4;
+  height: 53px;
+  width: 346px;
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+  border: none;
+  padding: 10px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 82px;
+  box-sizing: border-box;
+}
+
+.smallerinput-style {
+  background-color: #E4E4E4;
+  height: 53px;
+  width: 141px;
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+  border: none;
+  padding: 7px;
+  font-family: 'Avenir', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
