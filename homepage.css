@@ -6,11 +6,10 @@ body {
 
 h1 {
   color: #FD5523;
-  font-family: 'Avenir', sans-serif;
   font-size: 40px;
   text-align: center;
-  margin-top: -60px;
   text-shadow: 0px 4px rgba(0,0,0,.1);
+  margin-top: -45px;
 }
 
 a {
@@ -25,36 +24,32 @@ a:hover {
 }
 
 
-.header-color {
+.header-style {
   background-color: #F0C899;
   color: #458773;
   font-size: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  height: 104px;
-}
-
-.nav-style {
-  padding: 40px;
-}
-
-.nav-right {
-  padding-left: 190px;
-  padding-right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font-weight: bold;
 }
 
 .logo-size {
-  width: 180px;
-  padding: 10px 10px;
+width: 180px;
+padding-top: 5px;
+
 }
 
-.card-style {
-  background-color: #A5C0A0;
-  width: 944px ;
-  height: 516px;
-  margin: 75px auto;
-  padding: 30px;
-  line-height: 60px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+.container {
+  background: #A5C0A0;
+  padding: 15px;
+  margin: 100px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  width: 875px;
+  height: 400px;
 }
 
 .form-style {
@@ -66,7 +61,8 @@ a:hover {
   font-family: 'Avenir', sans-serif;
   font-size: 16px;
   font-weight: bold;
- margin-bottom: 82px;
+  margin-bottom: 62px;
+  box-sizing: border-box;
 }
 
 .input-style {
@@ -80,32 +76,30 @@ a:hover {
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 82px;
+  box-sizing: border-box;
 }
 
 #calendar-size {
-  width: 469px;
-  height: 365px;
-  margin: -50px 10px 30px 80px;
+  width: 409px;
+  height: 305px;
+  margin-bottom: 110px;
+  margin-left: 50px;
+  margin-top: -10px;
 }
 
 .btn-green {
   background-color: #458773;
-  color: white;
-  height: 43px;
-  width: 111px;
-  text-align: center;
-  float: right;
-  margin-left: -100px;
-  margin-top: 170px;
+  color:#FFFFFF;
+  padding: 10px 25px;
+  margin-left: -50px;
 }
+
+/*CSS for Footer*/
 
 .icon-align {
   list-style: none;
-  text-align: right;
   font-size: 30px;
-  margin-left: 1000px;
 }
-
 .icon-align > li {
   display: inline;
   padding-right: 0px 30px;
@@ -115,26 +109,12 @@ a:hover {
   background-color: #F0C899;
   color: #458773;
   font-size: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
   padding: 30px 30px;
   height: 104px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
 
