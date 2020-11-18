@@ -14,3 +14,12 @@
 .logo-size {
   width: 180px;
 }
+
+
+#profile-size {
+	width: 40px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 1.5px;
+}
