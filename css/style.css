@@ -29,6 +29,15 @@ text-align: center;
 text-shadow: 0px 4px rgba(0,0,0,0.1)
 }
 
+h3{
+  color: #323A30;
+  font-size: 30px;
+  font-family: avenir;
+  text-align: center;
+  margin-top: -60px;
+  text-shadow: 0px 4px rgba(0,0,0,0.1)
+}
+
 a {
 color: #458773;
 text-decoration: none;
