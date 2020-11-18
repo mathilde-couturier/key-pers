@@ -1,3 +1,4 @@
+/*CSS to be deleted when consolidated */
 body {
   background-color: #E5E5E5;
   font-family: 'Avenir', sans-serif;
@@ -15,33 +16,29 @@ a:hover {
   color: black;
 }
 
+
 /*CSS for Header*/
 
-.header-color {
+.header-style {
   background-color: #F0C899;
   color: #458773;
   font-size: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  height: 104px;
-}
-
-.nav-style {
-  padding: 40px;
-}
-
-.nav-right {
-  padding-left: 190px;
-  padding-right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font-weight: bold;
 }
 
 .logo-size {
-  width: 180px;
-  padding: 10px 10px;
+width: 180px;
+padding-top: 5px;
 }
 
-/*CSS for main elements*/
-.form-style {
-  height: 48px;
+.smallerform-style {
+  height: 53px;
   width: 252px;
   box-shadow: 0 4px 4px rgb(0,0,0, 25%);
   border: none;
@@ -49,107 +46,12 @@ a:hover {
   font-family: 'Avenir', sans-serif;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 82px;
-  margin-top: 7px;
+  margin-bottom: 62px;
 }
 
-.btn-margin {
-  margin-left: 25px;
-  margin-top: -45px;
-  font-size: 20px;
-}
-
- #pet {
-    margin-left: 40px;
-  }
-
-
-.card-green {
-  background-color: #90AB8F;
-    width: 672px ;
-    height: 121px;
-  padding-top: 20px;
-    padding-bottom: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
-  line-height: 16px;
-    font-size: 12px;
-    box-shadow: 0 6px 5px rgba(0,0,0,.25);
-    color: rgba(0, 0, 0, 0.6);
-    margin: 40px 80px;
-  }
-
-  #card1 {
-    margin: -50px 30px 9px 80px;
-  }
-
-
- .avatar-style {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  box-shadow: 0 6px 5px rgba(0,0,0,.25);
-  margin-left: -100px;
-  margin-top: -31px;
- }
-
- .rating-style {
-  width: 200px;
-  list-style: none;
-  font-size: 25px;
-  margin-top: -90px;
-  color: black;
-  padding-left: 0px;
-  padding-right: 130px;
-}
-
-.rating-style > li {
-  display: inline;
-
-}
-
-h2 {
-  color: #FD5523;
-  font-size: 50px;
-  font-weight: bold;
-  margin-top: -90px;
-  margin-right: 80px;
-  padding-right: 0px;
-}
-
-h3 {
-  font-size: 23px;
-  font-weight: lighter;
-  margin-top: -145px;
-  margin-left: 127px;
-}
-
-p {
-font-size: 16px;
-margin: -110px 130px;
-}
-
-
-.price-align {
-  float: left;
-  margin: 35px -100px;
-  font-size: 16px;
-  text-align: center;
-}
-
-.price-style {
-  color: #FD5523;
-  font-family: 'Avenir', sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  text-shadow: 0px 4px rgba(0,0,0,.1);
-  line-height: 50px;
-}
-
-/*CSS for other components */
-.input-style {
+.smallerinput-style {
   background-color: #E4E4E4;
-  height: 44px;
+  height: 53px;
   width: 141px;
   box-shadow: 0 4px 4px rgb(0,0,0, 25%);
   border: none;
@@ -157,40 +59,17 @@ margin: -110px 130px;
   font-family: 'Avenir', sans-serif;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 82px;
-  margin-left: 15px;
-  margin-top: 7px;
-}
-
-#date-margin {
-  margin-left: 68px;
-}
-
-aside {
-  margin: -800px 68px;
-  float: right;
+  box-sizing: border-box;
 }
 
 /*CSS for Footer*/
-.list-align {
-  padding-left: 40px;
-}
-
 .icon-align {
   list-style: none;
-  text-align: right;
   font-size: 30px;
-  margin-left: 1000px;
 }
-
 .icon-align > li {
   display: inline;
   padding-right: 0px 30px;
-}
-
-#map-size {
-  width: 110%;
-  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
 }
 
 .footer-color {
@@ -198,7 +77,13 @@ aside {
   color: #458773;
   font-size: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px 30px;
   height: 104px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*CSS for Pagination */
@@ -230,20 +115,121 @@ aside {
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
 
+/*CSS to be kept */
+
+#map-size {
+  box-shadow: 0 4px 4px rgb(0,0,0, 25%);
+  float: right;
+  width: 120%;
+}
+
+.form-layout {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  justify-content: flex-start;
+  grid-gap: 20px;
+}
+
+#btn-align {
+padding-top: 20px;
+}
+
+.card-style {
+  background-color: #A5C0A0;
+  width: 700px ;
+  height: 158px;
+  margin: 20px auto;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 18px;
+  padding: 10px;
+  box-sizing: border-box;
+  column-gap: 5px;
+}
+
+ .avatar-style {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  float: left;
+ }
+
+.avatar-margin {
+  margin-left: -58px;
+}
+
+h2 {
+  color: #FD5523;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.items-margin {
+  margin-bottom: -16px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+p {
+font-size: 12px;
+}
+
+.cards-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: -60px;
+}
+
+.price-align {
+  float: right;
+  font-size: 16px;
+  text-align: center;
+}
+
+.price-style {
+  color: #FD5523;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 0px 4px rgba(0,0,0,.1);
+  line-height: 50px;
+}
+
+.rating-style {
+  font-size: 18px;
+  color: black;
+  font-weight: lighter;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .container {
+  .header-style {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
-  .container {
+  .header-style {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .container {
+  .header-style {
     width: 300px;
   }
