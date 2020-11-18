@@ -2,20 +2,16 @@
 <html>
 
 <head>
-
    <title>Key'Pers, connecting pet lovers</title>
    <meta name="description" content="Key'Pers is an online petsitting platform.">
    <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" type="text/css" href="petsitter-registration.css">
-	<link rel="stylesheet" type="text/css" href="header.css">
-	<link rel="stylesheet" type="text/css" href="footer.css">
-
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
 
-<header class="header-style">
+ <header class="header-style">
  <a href="#"> <img src="images/logo.jpg" alt="Logo" class="logo-size"> </a>
 <a href="#">🔍 Search a pet-sitter</a>
 <a href="#">♡ Become a pet-sitter</a>
@@ -24,43 +20,128 @@
 <a href="#">Help</a>
 </header>
 
-	<div class="container">
-		<h2 class="text-align">Pet-sitter registration</h2>
+  <div class="container">
+    <h1 class="text-align">Pet-sitter registration</h1>
     <table class="table-style">
       <tr>
-        <td class="texte-align">Civility*</td>
-        <td class="texte-alignment">Phone number*</td>
+        <td class="texte-align"
+          <form>
+           <label for="civility">Civility*:</label><br>
+           <input type="text" class="civility" name="civility"><br>
+          </form>
+        </td>
+        <td class="texte-alignment"
+          <form>
+           <label for="phone-number">Phone number*:</label><br>
+           <input type="text" class="phone-number" name="phone-number"><br>
+          </form>
+        </td>
       </tr>
       <tr>
-        <td class="texte-align">First name*</td>
-        <td class="texte-alignment">Email adress*</td>
+        <td class="texte-align"
+          <form>
+           <label for="first-name">First Name*:</label><br>
+           <input type="text" class="first-name" name="first-name"><br>
+          </form>
+        </td>
+        <td class="texte-alignment"
+          <form>
+           <label for="email-adress">Email adress*:</label><br>
+           <input type="email" class="email-adress" name="email-adress"><br>
+          </form>
+        </td>
       </tr>
       <tr>
-        <td class="texte-align">Surname*</td>
-        <td class="texte-alignment">Email confirmation*</td>
+        <td class="texte-align"
+          <form>
+           <label for="surname">Surname*:</label><br>
+           <input type="text" class="surname" name="surname"><br>
+          </form>
+        </td>
+        <td class="texte-alignment"
+          <form>
+           <label for="email-confirmation">Email Confirmation*:</label><br>
+           <input type="text" class="email-confirmation" name="email-confirmation"><br>
+          </form>
+        </td>
       </tr>
       <tr>
-        <td class="texte-align">Adress*</td>
-        <td class="texte-alignment">Password*</td>
+        <td class="texte-align"
+          <form>
+           <label for="adress">Adress*:</label><br>
+           <input type="text" class="adress" name="adress"><br>
+          </form>
+        </td>
+        <td class="texte-alignment"
+          <form>
+           <label for="pwd">Password*:</label><br>
+           <input type="password" class="pwd" name="pwd"><br>
+          </form>
+        </td>
       </tr>
       <tr>
-        <td class="texte-align">Zip code*</td>
-        <td class="texte-alignment">Password confirmation*</td>
+        <td class="texte-align"
+          <form>
+           <label for="zip-code">Zip Code*:</label><br>
+           <input type="text" class="zip-code" name="zip-code"><br>
+          </form>
+        </td>
+        <td class="texte-alignment"
+          <form>
+           <label for="password-confirmation">Password Confirmation*:</label><br>
+           <input type="password" class="password-confirmation" name="password-confirmation"><br>
+          </form>
+        </td>
       </tr>
       <tr>
-        <td class="texte-align">Birth date*</td>
-        <td class="texte-alignment">Sponsor's email</td>
+        <td class="texte-align"
+          <form>
+           <label for="birth-date">Birth Date*:</label><br>
+           <input type="date" class="birth-date" name="birth-date"><br>
+          </form>
+        </td>
+        <td class="texte-alignment"
+          <form>
+           <label for="sponsor-email">Sponsor's email:</label><br>
+           <input type="email" class="sponsor-email" name="sponsor-semail"><br>
+          </form>
+        </td>
       </tr>
     </table>
 
-		<p class="font-size">
-			Fields marked with * are mandatory
-		</p>	
-		<p class="text-alignment">
-			<a href="#" class="btn-green"> Register <a/>
-		</p>
-			
-	
-		
-	</div>
-	
+    <p class="font-size">
+      Fields marked with * are mandatory
+    </p>  
+    <p class="text-alignment">
+      <a href="#" class="btn-green"> Register <a/>
+    </p>    
+  </div>
+
+  <footer class="footer-color">
+    <ul class="list-align">
+      <li>About us</li>
+      <li>Terms of use</li>
+    </ul>
+
+    <ul class="icon-align">
+      <li>
+        <a href="#"></a>
+        <i class="fab fa-youtube"></i>
+      </li>
+      <li>
+        <a href="#"></a>
+        <i class="fas fa-at"></i>
+      </li>
+      <li>
+        <a href="#"></a>
+        <i class="fab fa-facebook"></i>
+      </li>
+      <li>
+        <a href="#"></a>
+        <i class="fab fa-instagram"></i>
+      </li>
+    </ul>
+  </footer>
+  
+</body>
+
