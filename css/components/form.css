@@ -53,3 +53,13 @@
   font-weight: bold;
   box-sizing: border-box;
 }
+
+/* Additional CSS for search results page */
+
+.form-layout {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  justify-content: flex-start;
+  grid-gap: 20px;
+}
