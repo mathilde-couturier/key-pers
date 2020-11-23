@@ -12,21 +12,25 @@ body {
   margin: 0px 0px;
 }
 
-/* Style the header */
+/* Custom design with class */
 
-.header-color {
+.header-style {
   background-color: #F0C899;
   color: #458773;
   font-size: 16px;
-  padding: 10px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font-weight: bold;
 }
 
 .logo-size {
   width: 180px;
-  margin: -3px;
-  margin-right: 200px;
 }
+
 
 a{
   color: #458773;
@@ -34,25 +38,18 @@ a{
 }
 
 h1 {
-  color: #FD5523;
-  font-size: 30px;
-  text-align: center;
-  margin-left: -50px;
-  text-shadow: 0px 4px rgba(0,0,0,.1);
+color: #FD5523;
+font-size: 40px;
+font-family: Avenir, sans-serif;
+margin-top: -45px;
+text-align: center;
+text-shadow: 0px 4px rgba(0,0,0,0.1)
 }
+
 h2 {
   color: #FD5523;
-  font-style: normal;
-  font-weight: 5000;
   font-size: 40px;
-  line-height: 33px;
-  text-align: 112px, 55px, -8px;
-  line-height: 33px;
-  display:flex;
-  align-items: center;
-  margin-top: -70px;
-  margin-left: -30px;
-
+  font-weight: bold;
 }
 
 h3 {
@@ -65,7 +62,7 @@ h3 {
   line-height: 33px;
   display:flex;
   align-items: center;
-  margin-top: -70px;
+  margin-top: -10px;
   margin-left: -45px;
 }
 
@@ -99,14 +96,26 @@ nav {
   line-height: 21.86px;
   color: rgba(50, 58, 48, 0.7);
   padding-left: 120px;
-  margin-left: 400px;
 }
 
+#card-margin {
+  margin-left: 400px
+}
 #city-style {
   margin-top: -120px;
   margin-left: 20px;
 }
 
+#h2-margin {
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -70px;
+  margin-left: -30px;
+
+}
 
 .list-inline2 li {
   display: inline;
@@ -122,25 +131,16 @@ nav {
 .card-green {
   background-color: #90AB8F;
     width: 628px ;
-    height: 130px;
-    margin-top: 50px;
-    margin-left: 350px;
-    padding-top: 70px;
-    padding-bottom: 0px;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
     padding-left: 30px;
     padding-right: 30px;
     line-height: 16px;
     font-size: 12px;
     box-shadow: 0 6px 5px rgba(0,0,0,.25);
     color: rgba(0, 0, 0, 0.6);
-}
-
-#description-style {
-  margin-top: -50px;
-}
-
-#edit-tab1 {
-  padding-top: 40px
 }
 
 
@@ -160,26 +160,20 @@ nav {
 .card-green {
   background-color: #90AB8F;
     width: 628px ;
-    height: 130px;
-    margin-top: 50px;
-    margin-left: 350px;
-    padding-top: 70px;
-    padding-bottom: 0px;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
     padding-left: 30px;
-    padding-right: 30px;    line-height: 16px;
+    padding-right: 30px;
+    line-height: 16px;
     font-size: 12px;
     box-shadow: 0 6px 5px rgba(0,0,0,.25);
     color: rgba(0, 0, 0, 0.6);
 }
 
-#conditions-style {
-  margin-top: -50px;
-}
 
-#edit-tab1 {
-  padding-top: 40px
 }
-
 
 
 .list-inline1 li {
@@ -211,10 +205,6 @@ nav {
 
 #latestreviews-style {
   margin-top: -50px;
-}
-
-#edit-tab1 {
-  padding-top: 40px
 }
 
 
@@ -295,12 +285,1641 @@ h6 {
 }
 
 .card-picture {
-  width: 400px;
+  width: 350px;
   left: 391px;
   top: 562px;
   margin: 20px auto;
   float: right;
 }
+
+
+.list-inline li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline {
+  list-style: none;
+  
+}
+#cat {
+  width: 180px;
+  height: 220px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cat2 {
+  width: 150px;
+  height: 132px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25)) blur(3px);
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+    margin-top: -30px;
+  padding-top: 10px;
+}
+#rabbit {
+  width: 180px;
+  height: 117.43px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: -30px;
+  padding-top: 10px;
+}
+
+#dog {
+  width: 150px;
+  height: 190px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+  margin-top: -15px;
+}
+#calendar{
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.5));
+  padding: 20px;
+}
+
+.btn-green {
+  position: absolute;
+  background-color: #458773;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  width: 110px;
+  height: 30px;
+  padding: 10px 20px;
+  margin-left: -190px;
+  margin-top: 90px;
+}
+
+/* Style the footer */
+.footer-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px 30px;
+  padding-bottom: 1px;
+  padding-top: 40px;
+  left: 0px;
+  margin-top: 50px
+}
+
+.list-align {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+  padding: 0px 20px;
+  font-weight: 800;
+}
+
+.list-align > li {
+  display: inline;
+  padding: 15px;
+  padding-top: 10px
+}
+
+.icon-align {
+  list-style: none;
+  padding-right: 50px;
+  text-align: right;
+  font-size: 40px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.icon-align > li {
+  display: inline;
+  padding-right: 0px 30px;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style><style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Avenir';
+  line-height: 16.39px;
+  size: 12px;
+  display: block;
+  margin: 0px 0px;
+}
+
+/* Custom design with class */
+
+.header-style {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.logo-size {
+  width: 180px;
+}
+
+
+a{
+  color: #458773;
+  text-decoration: none;
+}
+
+h1 {
+color: #FD5523;
+font-size: 40px;
+font-family: Avenir, sans-serif;
+margin-top: -45px;
+text-align: center;
+text-shadow: 0px 4px rgba(0,0,0,0.1)
+}
+
+h2 {
+  color: #FD5523;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -45px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  padding: 40px;
+  padding-top: 270px;
+}
+
+
+/* Style of the first div*/
+
+#profile {
+  width: 173px;
+  height: 173px;
+  margin: -6px;
+  margin-left: -282px;
+  border-radius: 50%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.card-style {
+  background-color: #A5C0A0;
+  width: 595.88px ;
+  height: 158.71px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  font-size: 16px;
+  line-height: 21.86px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 120px;
+}
+
+#card-margin {
+  margin-left: 400px
+}
+#city-style {
+  margin-top: -120px;
+  margin-left: 20px;
+}
+
+#h2-margin {
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -70px;
+  margin-left: -30px;
+
+}
+
+.list-inline2 li {
+  display: inline;
+  }
+
+.list-inline2 {
+  list-style: none;
+
+}
+
+/* Style of the second div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the third div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+}
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the forth div*/
+
+.card-green2 {
+  background-color: #90AB8F;
+  width: 958px ;
+  height: 110px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;    line-height: 16px;
+  font-size: 12px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#latestreviews-style {
+  margin-top: -50px;
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+}
+
+.card-grey {
+  background-color: #DEDEDE;
+  width: 300px;
+  height: 10px;
+  margin-top: -30px;
+  margin-left: -45px;
+}
+.card-grey2 {
+  background-color: #DEDEDE;
+  width: 250px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+.card-grey3 {
+  background-color: #DEDEDE;
+  width: 200px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+h4 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: -45px;
+}
+
+h5 {
+  color: #FD6437;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-left: -45px;
+  padding-right: 50px;
+}
+
+h6 {
+  color: #000000;
+  font-size: 20px;
+  line-height: 23px;
+  margin: -65px 30px;
+  text-align: center;
+}
+/* Style of the fifth (nav) div*/
+
+.card-green3 {
+  background-color: #A5C0A0;
+  width: 240px ;
+  height: 375px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  line-height: 1px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 50px;
+  margin-left: 0px;
+}
+
+.card-picture {
+  width: 350px;
+  left: 391px;
+  top: 562px;
+  margin: 20px auto;
+  float: right;
+}
+
+
+.list-inline li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline {
+  list-style: none;
+  
+}
+#cat {
+  width: 180px;
+  height: 220px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cat2 {
+  width: 150px;
+  height: 132px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25)) blur(3px);
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+    margin-top: -30px;
+  padding-top: 10px;
+}
+#rabbit {
+  width: 180px;
+  height: 117.43px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: -30px;
+  padding-top: 10px;
+}
+
+#dog {
+  width: 150px;
+  height: 190px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+  margin-top: -15px;
+}
+#calendar{
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.5));
+  padding: 20px;
+}
+
+.btn-green {
+  position: absolute;
+  background-color: #458773;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  width: 110px;
+  height: 30px;
+  padding: 10px 20px;
+  margin-left: -190px;
+  margin-top: 90px;
+}
+
+/* Style the footer */
+.footer-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px 30px;
+  padding-bottom: 1px;
+  padding-top: 40px;
+  left: 0px;
+  margin-top: 50px
+}
+
+.list-align {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+  padding: 0px 20px;
+  font-weight: 800;
+}
+
+.list-align > li {
+  display: inline;
+  padding: 15px;
+  padding-top: 10px
+}
+
+.icon-align {
+  list-style: none;
+  padding-right: 50px;
+  text-align: right;
+  font-size: 40px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.icon-align > li {
+  display: inline;
+  padding-right: 0px 30px;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style><style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Avenir';
+  line-height: 16.39px;
+  size: 12px;
+  display: block;
+  margin: 0px 0px;
+}
+
+/* Custom design with class */
+
+.header-style {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.logo-size {
+  width: 180px;
+}
+
+
+a{
+  color: #458773;
+  text-decoration: none;
+}
+
+h1 {
+color: #FD5523;
+font-size: 40px;
+font-family: Avenir, sans-serif;
+margin-top: -45px;
+text-align: center;
+text-shadow: 0px 4px rgba(0,0,0,0.1)
+}
+
+h2 {
+  color: #FD5523;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -45px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  padding: 40px;
+  padding-top: 270px;
+}
+
+
+/* Style of the first div*/
+
+#profile {
+  width: 173px;
+  height: 173px;
+  margin: -6px;
+  margin-left: -282px;
+  border-radius: 50%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.card-style {
+  background-color: #A5C0A0;
+  width: 595.88px ;
+  height: 158.71px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  font-size: 16px;
+  line-height: 21.86px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 120px;
+}
+
+#card-margin {
+  margin-left: 400px
+}
+#city-style {
+  margin-top: -120px;
+  margin-left: 20px;
+}
+
+#h2-margin {
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -70px;
+  margin-left: -30px;
+
+}
+
+.list-inline2 li {
+  display: inline;
+  }
+
+.list-inline2 {
+  list-style: none;
+
+}
+
+/* Style of the second div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the third div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+}
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the forth div*/
+
+.card-green2 {
+  background-color: #90AB8F;
+  width: 958px ;
+  height: 110px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;    line-height: 16px;
+  font-size: 12px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#latestreviews-style {
+  margin-top: -50px;
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+}
+
+.card-grey {
+  background-color: #DEDEDE;
+  width: 300px;
+  height: 10px;
+  margin-top: -30px;
+  margin-left: -45px;
+}
+.card-grey2 {
+  background-color: #DEDEDE;
+  width: 250px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+.card-grey3 {
+  background-color: #DEDEDE;
+  width: 200px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+h4 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: -45px;
+}
+
+h5 {
+  color: #FD6437;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-left: -45px;
+  padding-right: 50px;
+}
+
+h6 {
+  color: #000000;
+  font-size: 20px;
+  line-height: 23px;
+  margin: -65px 30px;
+  text-align: center;
+}
+/* Style of the fifth (nav) div*/
+
+.card-green3 {
+  background-color: #A5C0A0;
+  width: 240px ;
+  height: 375px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  line-height: 1px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 50px;
+  margin-left: 0px;
+}
+
+.card-picture {
+  width: 350px;
+  left: 391px;
+  top: 562px;
+  margin: 20px auto;
+  float: right;
+}
+
+
+.list-inline li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline {
+  list-style: none;
+  
+}
+#cat {
+  width: 180px;
+  height: 220px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cat2 {
+  width: 150px;
+  height: 132px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25)) blur(3px);
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+    margin-top: -30px;
+  padding-top: 10px;
+}
+#rabbit {
+  width: 180px;
+  height: 117.43px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: -30px;
+  padding-top: 10px;
+}
+
+#dog {
+  width: 150px;
+  height: 190px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+  margin-top: -15px;
+}
+#calendar{
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.5));
+  padding: 20px;
+}
+
+.btn-green {
+  position: absolute;
+  background-color: #458773;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  width: 110px;
+  height: 30px;
+  padding: 10px 20px;
+  margin-left: -190px;
+  margin-top: 90px;
+}
+
+/* Style the footer */
+.footer-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px 30px;
+  padding-bottom: 1px;
+  padding-top: 40px;
+  left: 0px;
+  margin-top: 50px
+}
+
+.list-align {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+  padding: 0px 20px;
+  font-weight: 800;
+}
+
+.list-align > li {
+  display: inline;
+  padding: 15px;
+  padding-top: 10px
+}
+
+.icon-align {
+  list-style: none;
+  padding-right: 50px;
+  text-align: right;
+  font-size: 40px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.icon-align > li {
+  display: inline;
+  padding-right: 0px 30px;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style><style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Avenir';
+  line-height: 16.39px;
+  size: 12px;
+  display: block;
+  margin: 0px 0px;
+}
+
+/* Custom design with class */
+
+.header-style {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.logo-size {
+  width: 180px;
+}
+
+
+a{
+  color: #458773;
+  text-decoration: none;
+}
+
+h1 {
+color: #FD5523;
+font-size: 40px;
+font-family: Avenir, sans-serif;
+margin-top: -45px;
+text-align: center;
+text-shadow: 0px 4px rgba(0,0,0,0.1)
+}
+
+h2 {
+  color: #FD5523;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -45px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  padding: 40px;
+  padding-top: 270px;
+}
+
+
+/* Style of the first div*/
+
+#profile {
+  width: 173px;
+  height: 173px;
+  margin: -6px;
+  margin-left: -282px;
+  border-radius: 50%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.card-style {
+  background-color: #A5C0A0;
+  width: 595.88px ;
+  height: 158.71px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  font-size: 16px;
+  line-height: 21.86px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 120px;
+}
+
+#card-margin {
+  margin-left: 400px
+}
+#city-style {
+  margin-top: -120px;
+  margin-left: 20px;
+}
+
+#h2-margin {
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -70px;
+  margin-left: -30px;
+
+}
+
+.list-inline2 li {
+  display: inline;
+  }
+
+.list-inline2 {
+  list-style: none;
+
+}
+
+/* Style of the second div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the third div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+}
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the forth div*/
+
+.card-green2 {
+  background-color: #90AB8F;
+  width: 958px ;
+  height: 110px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;    line-height: 16px;
+  font-size: 12px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#latestreviews-style {
+  margin-top: -50px;
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+}
+
+.card-grey {
+  background-color: #DEDEDE;
+  width: 300px;
+  height: 10px;
+  margin-top: -30px;
+  margin-left: -45px;
+}
+.card-grey2 {
+  background-color: #DEDEDE;
+  width: 250px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+.card-grey3 {
+  background-color: #DEDEDE;
+  width: 200px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+h4 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: -45px;
+}
+
+h5 {
+  color: #FD6437;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-left: -45px;
+  padding-right: 50px;
+}
+
+h6 {
+  color: #000000;
+  font-size: 20px;
+  line-height: 23px;
+  margin: -65px 30px;
+  text-align: center;
+}
+/* Style of the fifth (nav) div*/
+
+.card-green3 {
+  background-color: #A5C0A0;
+  width: 240px ;
+  height: 375px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  line-height: 1px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 50px;
+  margin-left: 0px;
+}
+
+.card-picture {
+  width: 350px;
+  left: 391px;
+  top: 562px;
+  margin: 20px auto;
+  float: right;
+}
+
+
+.list-inline li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline {
+  list-style: none;
+  
+}
+#cat {
+  width: 180px;
+  height: 220px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+#cat2 {
+  width: 150px;
+  height: 132px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25)) blur(3px);
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+    margin-top: -30px;
+  padding-top: 10px;
+}
+#rabbit {
+  width: 180px;
+  height: 117.43px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-top: -30px;
+  padding-top: 10px;
+}
+
+#dog {
+  width: 150px;
+  height: 190px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  margin-bottom: 5px;
+  padding-left: 7px;
+  padding-bottom: 5px;
+  margin-top: -15px;
+}
+#calendar{
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.5));
+  padding: 20px;
+}
+
+.btn-green {
+  position: absolute;
+  background-color: #458773;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  width: 110px;
+  height: 30px;
+  padding: 10px 20px;
+  margin-left: -190px;
+  margin-top: 90px;
+}
+
+/* Style the footer */
+.footer-color {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px 30px;
+  padding-bottom: 1px;
+  padding-top: 40px;
+  left: 0px;
+  margin-top: 50px
+}
+
+.list-align {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+  padding: 0px 20px;
+  font-weight: 800;
+}
+
+.list-align > li {
+  display: inline;
+  padding: 15px;
+  padding-top: 10px
+}
+
+.icon-align {
+  list-style: none;
+  padding-right: 50px;
+  text-align: right;
+  font-size: 40px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.icon-align > li {
+  display: inline;
+  padding-right: 0px 30px;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style><style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Avenir';
+  line-height: 16.39px;
+  size: 12px;
+  display: block;
+  margin: 0px 0px;
+}
+
+/* Custom design with class */
+
+.header-style {
+  background-color: #F0C899;
+  color: #458773;
+  font-size: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.logo-size {
+  width: 180px;
+}
+
+
+a{
+  color: #458773;
+  text-decoration: none;
+}
+
+h1 {
+color: #FD5523;
+font-size: 40px;
+font-family: Avenir, sans-serif;
+margin-top: -45px;
+text-align: center;
+text-shadow: 0px 4px rgba(0,0,0,0.1)
+}
+
+h2 {
+  color: #FD5523;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -45px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  padding: 40px;
+  padding-top: 270px;
+}
+
+
+/* Style of the first div*/
+
+#profile {
+  width: 173px;
+  height: 173px;
+  margin: -6px;
+  margin-left: -282px;
+  border-radius: 50%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.card-style {
+  background-color: #A5C0A0;
+  width: 595.88px ;
+  height: 158.71px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  font-size: 16px;
+  line-height: 21.86px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 120px;
+}
+
+#card-margin {
+  margin-left: 400px
+}
+#city-style {
+  margin-top: -120px;
+  margin-left: 20px;
+}
+
+#h2-margin {
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -70px;
+  margin-left: -30px;
+
+}
+
+.list-inline2 li {
+  display: inline;
+  }
+
+.list-inline2 {
+  list-style: none;
+
+}
+
+/* Style of the second div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the third div*/
+
+.card-green {
+  background-color: #90AB8F;
+    width: 628px ;
+    height: 177px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 16px;
+    font-size: 12px;
+    box-shadow: 0 6px 5px rgba(0,0,0,.25);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+}
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+
+}
+
+/* Style of the forth div*/
+
+.card-green2 {
+  background-color: #90AB8F;
+  width: 958px ;
+  height: 110px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;    line-height: 16px;
+  font-size: 12px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#latestreviews-style {
+  margin-top: -50px;
+}
+
+
+
+.list-inline1 li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline1 {
+  list-style: none;
+}
+
+.card-grey {
+  background-color: #DEDEDE;
+  width: 300px;
+  height: 10px;
+  margin-top: -30px;
+  margin-left: -45px;
+}
+.card-grey2 {
+  background-color: #DEDEDE;
+  width: 250px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+.card-grey3 {
+  background-color: #DEDEDE;
+  width: 200px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+h4 {
+  color: #FD6437;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: 112px, 55px, -8px;
+  line-height: 33px;
+  display:flex;
+  align-items: center;
+  margin-top: -40px;
+  margin-left: -45px;
+}
+
+h5 {
+  color: #FD6437;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 0px;
+  margin-left: -45px;
+  padding-right: 50px;
+}
+
+h6 {
+  color: #000000;
+  font-size: 20px;
+  line-height: 23px;
+  margin: -65px 30px;
+  text-align: center;
+}
+/* Style of the fifth (nav) div*/
+
+.card-green3 {
+  background-color: #A5C0A0;
+  width: 240px ;
+  height: 375px;
+  margin: 20px 32px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  line-height: 1px;
+  color: rgba(50, 58, 48, 0.7);
+  padding-left: 50px;
+  margin-left: 0px;
+}
+
+.card-picture {
+  width: 350px;
+  left: 391px;
+  top: 562px;
+  margin: 20px auto;
+  float: right;
+}
+
 
 .list-inline li {
   display: inline;
