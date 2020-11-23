@@ -43,7 +43,7 @@ h1{
 /* Style the container */
 
 .container{
-	background: #A5C0A0;
+  background: #A5C0A0;
   padding: 15px;
   margin: 100px auto;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
@@ -142,7 +142,7 @@ h1{
   }
   .container{
     width: 400px;
-    height: 420px;
+    height: 440px;
   }
 }
 @media (max-width: 540px) {
@@ -152,6 +152,6 @@ h1{
   }
   .container{
     width: 320px;
-    height: 450px;
+    height: 470px;
   }
 }
