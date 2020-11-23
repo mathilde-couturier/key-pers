@@ -54,6 +54,7 @@ h4 {
 a {
 color: #458773;
 text-decoration: none;
+ font-weight: bold;
 }
 
 a:hover {
