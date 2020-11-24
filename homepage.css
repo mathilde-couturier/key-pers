@@ -118,3 +118,138 @@ padding-top: 5px;
   align-items: center;
 }
 
+
+
+.card-rectangle {
+	width: 600px;
+	height: 590.89px;
+	background-color: #A5C0A0;
+	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.list-incolumn {
+	font-size: 30px;
+	font-weight: 400;
+	padding-left: 0px; 
+	list-style: none;
+	line-height: 53px;
+	text-align: center;
+	margin-block-end: 0.3em;
+}
+
+.list-incolumn li {
+	padding: 20px;
+}
+
+.btn-white {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
+  color: black;
+  width: 437.88px;
+  height: 77.21px;
+  padding: 17px 40px;
+  margin: 35px auto;
+  text-decoration-line: none;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-white:hover {
+    background-color: #e3e2e2;
+}
+
+
+.btn-black {
+  background-color: black;
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
+  color: white;
+  width: 437.88px;
+  height: 77.21px;
+  padding: 17px 64px;
+  margin: 35px auto;
+  text-decoration-line: none;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-black:hover {
+	background-color: #000000c7;
+}
+#or {
+	margin: 15px;
+}
+
+#account {
+	padding-left: 120px;
+	font-weight: 400;
+	color: rgba(50, 58, 48, 1);
+	font-size: 20px;
+}
+
+#login {
+	text-decoration-line: underline;
+	font-weight: bold;
+	font-size:20px;
+	color: #305F51;
+	padding-left: 10px;
+}
+
+#login:hover {
+	color: #16352c;
+}
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  cursor: pointer;
+    display: inline-block;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+  width: 160px;
+  background-color: white;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
