@@ -133,7 +133,7 @@ h8 {
   font-size: 24px;
   display:flex;
   margin-top: -40px;
-  margin-left: -6px;
+  padding-bottom: 10px;
 }
 
 h9 {
@@ -148,10 +148,17 @@ h9 {
 #city-style {
   margin-top: -120px;
   margin-left: 10px;
+  line-heigt: 21.86px;
+  font-size: 16px;
+  color: rgba(50,58,48,0.7);
 }
 
 #description-style {
   margin-top: -50px;
+  line-heigt: 16px;
+  font-size: 12px;
+  color: rgba(0,0,0,0.6);
+  padding-top: 35px;
 }
 
 #settings-style {
