@@ -24,3 +24,10 @@
   margin: 0px;
   width: 100%;
 }
+
+
+/* Modal Content/Box */
+.content-modal {
+  margin: 15% auto; /* 15% from the top and centered */
+  width: 65%; /* Could be more or less, depending on screen size */
+}

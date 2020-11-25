@@ -20,3 +20,21 @@
 
 .text-alignment{
 	text-align: end;
+	
+.list-incolumn {
+	font-size: 30px;
+	font-weight: 400;
+	padding-left: 0px; 
+	list-style: none;
+	line-height: 53px;
+	text-align: center;
+	margin-block-end: 0.3em;
+}
+
+.list-incolumn li {
+	padding: 10px;
+}
+
+  #table-margin {
+margin: 65px auto;
+}
