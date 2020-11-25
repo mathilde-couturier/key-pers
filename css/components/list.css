@@ -1,0 +1,46 @@
+/* CSS for sign up modal */
+
+.list-incolumn {
+	font-size: 30px;
+	font-weight: 400;
+	padding-left: 0px; 
+	list-style: none;
+	line-height: 53px;
+	text-align: center;
+	margin-block-end: 0.3em;
+}
+
+.list-incolumn li {
+	padding: 10px;
+}
+
+  #table-margin {
+margin: 65px auto;
+}
+
+/* CSS for petsitter dashboard */
+
+.list-inline li {
+  display: inline;
+  padding: 3px;
+}
+
+.list-inline2 li {
+  display: inline;
+  }
+
+.list-inline, .list-inline2 {
+  list-style: none;
+  
+}
+
+ul {
+      padding-inline-start: 0px;
+}
+
+.list-left li {
+    padding: 25px;
+    width: 219px;
+  margin : 10px;  
+   }
+
