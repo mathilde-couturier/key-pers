@@ -15,58 +15,63 @@ padding: 10px 25px;
   padding: 10px 25px;
 }
 
-.btn-white1 {
-  background-color: #FFFFFF;
+/* CSS for sign up modal */
+.btn-white {
+  background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
-  color: black;
   width: 437.88px;
-  height: 77.21px;
-  padding: 20px 40px;
-  margin: 35px auto;
+  height: 60.21px;
+  margin: 25px auto;
   text-decoration-line: none;
   font-weight: bold;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn-white2 {
-  background-color: #FFFFFF;
-  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
-  color: black;
-  width: 437.88px;
-  height: 77.21px;
-  padding: 20px 56px;
-  margin: 35px auto;
-  text-decoration-line: none;
-  font-weight: bold;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.btn-white:hover {
+    background-color: #e3e2e2;
 }
-
-.btn-white3 {
-  background-color: #FFFFFF;
-  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
-  color: black;
-  width: 437.88px;
-  height: 77.21px;
-  padding: 20px 76px;
-  margin: 35px auto;
-  text-decoration-line: none;
-  font-weight: bold;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 
 .btn-black {
   background-color: black;
   box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
   color: white;
   width: 437.88px;
-  height: 77.21px;
-  padding: 20px 64px;
-  margin: 35px auto;
+  height: 60.21px;
+  margin: 25px auto;
   text-decoration-line: none;
   font-weight: bold;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.btn-black:hover {
+	background-color: #000000c7;
+}
+
+.link-black {
+	  text-decoration-line: none;
+	  color: black;
+
+}
+
+.link-white {
+	  text-decoration-line: none;
+	  color: white;
+}
+
+#login {
+	text-decoration-line: underline;
+	font-size:20px;
+	color: #305F51;
+	padding-left: 10px;
+}
+
+
+#login:hover {
+	color: #16352c;
+}
+
+
+/* CSS for petsitter dashboard page */
 
 .btn-profile {
    background-color: #90AB8F;

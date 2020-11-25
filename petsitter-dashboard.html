@@ -330,13 +330,7 @@ section:after {
 
 .btn-profile {
    background-color: #90AB8F;
-  color: rgba(253,100,55,1);
   width: 219px;
-  height: 60px;
-  padding: 20px 100px;
-  padding-left: 45px;
-  text-decoration-line: none;
-
   border-top-style: hidden;
   border-right-style: hidden;
   border-bottom-style: hidden;
@@ -347,17 +341,18 @@ section:after {
 
 .btn-left {
    background-color: #A5C0A0;
-  color: rgba(253,100,55,1);
-  width: 219px;
-  height: 60px;
-  padding: 20px 74px;
-  padding-left: 50px;
-  text-decoration-line: none;
 }
+	
+.link-color {
+  padding-left: 40px;
+  color: rgba(253,100,55,1);
+  height: 60px;
+	}
 
 .list-left li {
     padding: 25px;
     width: 219px;
+	margin : 10px;	
    }
 
  #logo-settings {
@@ -426,10 +421,10 @@ section:after {
 <section>
   <nav>
     <ul class="list-left">
-          <li><a href="petsitter-dashboard.html" class="btn-profile">Profile</a></li>
-          <li><a href="petsitter-dashboard.html" class="btn-left">Requests</a></li>
-          <li><a href="petsitter-dashboard.html" class="btn-left">Messages</a></li>
-          <li><a href="petsitter-dashboard.html" class="btn-left">Calendars</a></li>
+          <li class="btn-profile"><a href="petsitter-dashboard.html" class="link-color">Profile</a></li>
+          <li class="btn-left"><a href="petsitter-dashboard.html" class="link-color">Requests</a></li>
+          <li class="btn-left"><a href="petsitter-dashboard.html" class="link-color">Messages</a></li>
+          <li class="btn-left"><a href="petsitter-dashboard.html" class="link-color">Calendars</a></li>
     </ul>
     <table>
 			<tr>
