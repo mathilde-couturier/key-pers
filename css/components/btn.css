@@ -15,45 +15,23 @@ padding: 10px 25px;
   padding: 10px 25px;
 }
 
-.btn-white1 {
+
+.btn-white {
   background-color: #FFFFFF;
   box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
   color: black;
-  width: 437.88px;
-  height: 77.21px;
+  width: 335px;
+  height: 20.21px;
   padding: 20px 40px;
-  margin: 35px auto;
+  margin: 20px auto;
   text-decoration-line: none;
   font-weight: bold;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.btn-white2 {
-  background-color: #FFFFFF;
-  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
-  color: black;
-  width: 437.88px;
-  height: 77.21px;
-  padding: 20px 56px;
-  margin: 35px auto;
-  text-decoration-line: none;
-  font-weight: bold;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.btn-white:hover {
+	background-color: #000000c7;
 }
-
-.btn-white3 {
-  background-color: #FFFFFF;
-  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
-  color: black;
-  width: 437.88px;
-  height: 77.21px;
-  padding: 20px 76px;
-  margin: 35px auto;
-  text-decoration-line: none;
-  font-weight: bold;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 
 .btn-black {
   background-color: black;
@@ -66,6 +44,10 @@ padding: 10px 25px;
   text-decoration-line: none;
   font-weight: bold;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-black:hover {
+	background-color: #000000c7;
 }
 
 .btn-profile {
@@ -83,6 +65,17 @@ padding: 10px 25px;
   border-left-style: solid;
   border-width: 5px;
   border-color: rgba(0, 0, 0, 0.56);
+}
+
+#login {
+	text-decoration-line: underline;
+	font-size:20px;
+	color: #305F51;
+	padding-left: 10px;
+}
+
+#login:hover {
+	color: #16352c;
 }
 
 .btn-left1 {
