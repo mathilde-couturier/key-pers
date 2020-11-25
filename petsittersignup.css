@@ -80,6 +80,10 @@ h1 {
 	background-color: #000000c7;
 }
 	
+.link {
+	  text-decoration-line: none;
+
+}
 
 h2 {
 	padding-left: 120px;
