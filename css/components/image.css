@@ -1,0 +1,46 @@
+/* CSS for petsitter dashboard*/
+
+#profile {
+  width: 170.19px;
+  height: 173px;
+  margin: -6px;
+    margin-left: -230px;
+  border-radius: 50%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+#cat {
+  width: 190px;
+  height: 175.71px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  margin-top: -90px;
+}
+
+#rabbit {
+  width: 174.22px;
+  height: 117.43px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  padding-left: 7px;
+  margin-top: -30px;
+}
+
+#dog {
+  width: 250.27px;
+  height: 165.57px;
+  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.25));
+  left: 0%;
+  top: 0%;
+  bottom: 30%;
+  right: 0%;
+  margin-bottom: 40px;
+  padding-left: 7px;
+  padding-bottom: 40px
+}
