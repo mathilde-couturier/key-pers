@@ -20,3 +20,9 @@
 
 .text-alignment{
 	text-align: end;
+	
+	
+#table-margin {
+margin: 65px auto;
+}
+	
