@@ -65,6 +65,9 @@
 }
 
 /* CSS for petsitter dashboard page */
+* {
+  box-sizing: border-box;
+}
 
 /* Create two columns/boxes that floats next to each other */
 nav {
