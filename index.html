@@ -7,6 +7,7 @@
   <title>Key'Pers, connecting pet lovers</title>
   <meta name="description" content="Key'Pers is an online petsitting platform.">
   <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -19,7 +20,46 @@
    <a href="index.html">🔍 Search a pet-sitter</a>
    <a href="petsitter-registration.html">♡ Become a pet-sitter</a>
    <a href="index.html">🐾 Discover our services</a>
-   <a href="petsittersignup.html">Sign up / Login</a>
+   <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Sign up / Login</button>
+
+  <!-- The Modal -->
+   <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+   <div class="modal-content">
+
+  <!-- Our content -->
+    <div class="card-rectangle">
+			<h1>Sign up for a free account</h1>
+			<ul class="list-incolumn">
+				<li class="btn-white">
+					<a href="petsitter-dashboard.html" class="link-black">Continue with Facebook</a>
+				</li>
+				<li class="btn-white">
+					<a href="petsitter-dashboard.html" class="link-black">Continue with Google</a>		
+				</li>
+				<li class="btn-black">
+					<a href="petsitter-dashboard.html" class="link-white">Continue with Apple</a>
+				</li>
+					<p id="or">
+					Or
+      				</p>
+				<li class="btn-white">
+					<a href="petsitter-registration.html" class="link-black">Sign up with email</a>
+				</li>
+			</ul>
+				<table>
+					<tr>
+						<th id="account">Already have an account ?</th>
+						<th><a href="petsitter-dashboard.html" id="login">Login now</a></th>
+					</tr>
+				</table>
+
+	</div>
+     </div>
+     <!-- End of our content -->
+     </div>
    <a href="index.html">Help</a>
 </header>
 
@@ -92,6 +132,34 @@
   </ul>
 </div>
 </footer>
+  
+  <script type="text/javascript">
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 
 </body>
 
