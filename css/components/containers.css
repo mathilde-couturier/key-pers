@@ -40,7 +40,8 @@
 	width: 800px;
 	left: 391px;
 	top: 562px;
-	margin: 20px auto;
+	margin: 20px;
+	margin-left: 0px;
 }
 
 .card-design{
