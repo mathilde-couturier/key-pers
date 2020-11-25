@@ -46,7 +46,17 @@ padding: 10px 25px;
 .btn-black:hover {
 	background-color: #000000c7;
 }
-	
+
+.link-black {
+	  text-decoration-line: none;
+	  color: black;
+
+}
+
+.link-white {
+	  text-decoration-line: none;
+	  color: white;
+}
 
 #login {
 	text-decoration-line: underline;
