@@ -131,7 +131,12 @@ border-radius: 7px;
   margin-bottom: -16px;
 }
 
+/*CSS for Petsitter information container */
+
 .green-box {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 120px auto;
     position: relative;
     background: #A5C0A0;
     width: 100%;
@@ -151,5 +156,27 @@ border-radius: 7px;
     top: 10px;
     right: 0;
     width: 60%;
+    margin-top: 90px;
+}
+.table-dropdown {
+    border-spacing: 15px 15px;
+}
+
+.animals-checkbox {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+#animals-icon {
     text-align: center;
+    font-size: 5em;
+    width: 90px;
+    height: 90px;
+}
+
+.table-style {
+    margin: 1px 10px;
+    width: 600px;
+    height: 165px;
 }
