@@ -181,3 +181,10 @@ h9 {
 	font-style: italic;
 }
 
+.animals-checkbox {
+    position: absolute;
+    right: 0px;
+    top: 70px;
+    margin: 0;
+    padding: 0;
+}
