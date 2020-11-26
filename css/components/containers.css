@@ -62,6 +62,18 @@ width: 875px;
 height: 400px;
 }
 
+.card-padding{
+  padding-left: 5px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.card-forme{
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+}
+
 /* CSS for search results page */
 
 .container-style {
