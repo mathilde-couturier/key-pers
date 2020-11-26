@@ -130,3 +130,10 @@ height: 400px;
 .items-margin {
   margin-bottom: -16px;
 }
+
+.green-box {
+    position: relative;
+    background: #A5C0A0;
+    width: 100%;
+    height: 440px;
+}
