@@ -35,3 +35,7 @@ background:#E4E4E4
 .cursor{
 margin-left:100px;
 }
+
+#table-column{
+box-sizing:unset;
+}
