@@ -29,6 +29,6 @@
 
 /* Modal Content/Box */
 .content-modal {
-  margin: 50% auto; /* 5% from the top and centered */
+  margin: 5% auto; /* 5% from the top and centered */
   width: 40%; /* Could be more or less, depending on screen size */
 }
