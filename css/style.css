@@ -171,5 +171,8 @@ h9 {
   color: rgba(0,0,0,0.56);
  }
 
-
+.font-size{
+	font-size: 10px;
+	font-style: italic;
+}
 
