@@ -132,11 +132,13 @@ border-radius: 5px;
 }
 
 /*CSS for Petsitter information container */
+.information-card {
+	width: 60%;
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 120px auto;
+}
 
 .green-box {
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-    width: 60%;
-    margin: 120px auto;
     position: relative;
     background: #A5C0A0;
     width: 100%;
