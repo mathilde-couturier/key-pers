@@ -44,6 +44,9 @@ h2 {
   font-weight: bold;
 }
 
+h2 a {
+  color: #FD5523;
+
 h3{
   color: #323A30;
   font-size: 30px;
