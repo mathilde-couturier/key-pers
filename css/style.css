@@ -24,6 +24,11 @@ font-family: Avenir, sans-serif;
 margin: 0px 0px;
 }
 
+#body-adjustment{
+color: #458773;
+font-size: 16px;	
+}
+
 h1 {
 color: #FD5523;
 font-size: 40px;
