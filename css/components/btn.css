@@ -160,12 +160,10 @@ color: black;
 
 /* Button for Petsitter information page */
 
-.save-changes {
+.save-btn {
     position: absolute;
     width: 150px;
     height: 50px;
-    padding: 0;
-    margin: 0;
     right: 10px;
     bottom: 10px;
 }
