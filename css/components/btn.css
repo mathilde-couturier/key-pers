@@ -50,8 +50,12 @@ padding: 10px 25px;
 .link-black {
 	  text-decoration-line: none;
 	  color: black;
-
 }
+
+.link-black:hover {
+    color: white;
+}
+
 
 .link-white {
 	  text-decoration-line: none;
