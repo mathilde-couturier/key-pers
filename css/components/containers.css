@@ -104,7 +104,7 @@ height: 400px;
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 115px;
-  margin-left:300px;	
+  margin-left:-300px;	
 }
 
 .price-align {
