@@ -2,7 +2,6 @@
 @import url("components/header.css");
 @import url("css/petsitterinformation.css");
 @import url("css/profilepage.css");
-@import url("css/filtering.css");
 @import url("components/footer.css");
 @import url("components/avatar.css");
 @import url("components/btn.css");
@@ -42,6 +41,10 @@ h2 {
   color: #FD5523;
   font-size: 40px;
   font-weight: bold;
+}
+
+#name-color {
+color: #FD5523;
 }
 
 h3{
