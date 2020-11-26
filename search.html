@@ -47,120 +47,7 @@
     <input type="text" name="Location" placeholder="Manchester" class="smallerinput-style">
     <input type="text" name="Starting date" placeholder="From 20/09" class="smallerinput-style">
     <input type="text" name="Ending date" placeholder="To 24/09" class="smallerinput-style">
- <!-- Trigger/Open The Modal -->
-    <button id="btn-align">+filters</button>
-
-
-<!-- The Modal -->
-   <div class="modal">
-
-<!-- Modal content -->
-   <div class="modal-content">
-
-<!-- Our content -->
-    <div class="container" id="filter">
-
-  <p>
-    <a href="search.html" class="btn-grey close"> Back <a/>
-  </p>
-
-  <h3 > Additional filters </h3>
-
-  <table class="table-style">
-    <tr>
-      <td>
-        <div>
-          <form class="card-design">
-            <p>
-            <input type="checkbox" value="Apartment">
-            <label for="accomodation1"> Apartment</label><br>
-            </p>
-            <p>
-            <input type="checkbox" value="House">
-            <label for="accomodation2"> House</label><br>
-            </p>
-            <p>
-            <input type="checkbox" value="Garden">
-            <label for="accomodation3"> Garden</label><br>
-            </p>
-            <p>
-            <input type="checkbox" value="Householdwithchildren">
-            <label for="accomodation4"> Household with children</label>
-            </p>
-          </form>
-        </div>  
-      </td>
-
-      <td>
-        <div>
-          <form class="card-design">
-            <p>
-            <input type="checkbox" value="petsittingwithoutdog">
-            <label for="petistting1"> Petsitting without a dog</label><br>
-            </p>
-            <p>
-            <input type="checkbox" value="petsittingwithoutcat">
-            <label for="petsitting2"> Petsitting without a cat</label><br>
-            </p>
-            <p>
-            <input type="checkbox" value="petsitterwithoutanimal">
-            <label for="petsitting3"> Petsitting without an other animal</label>
-            </p>
-          </form>
-        </div>
-      </td>
-
-      <td>
-        <div class="card-design">
-          <p class="card-padding">Additional services available:</p>
-          <form style="padding-bottom: 5px">
-            <p>
-            <input type="checkbox" value="grooming">
-            <label for="additionalservices1"> Grooming</label><br>
-            </p>
-            <p>
-            <input type="checkbox" value="cancellationwithoutcharges">
-            <label for="additionalservices2"> Cancellation without charges</label><br>
-            </p>
-            <p>
-            <input type="checkbox" value="specialtreatments">
-            <label for="additionalservices3"> Administer special treatments</label>
-            </p> 
-          </form>
-        </div> 
-      </td>
-    </tr> 
-  </table>
-
-  <table>
-    <tr>
-      <td>
-        <div class="card-form">
-        <form>
-          <label for="price">Price range per day (between 0£ and 100£):</label>
-          <input type="range" class="price" name="price" min="0£" max="100£">
-        </form>  
-        </div>
-      </td>
-
-      <td>
-       <div class="card-form">
-       <form>
-          <label for="distance">Distance preference (between 0km and 40km):</label>
-          <input type="range" id="distance" name="distance" min="0km" max="40km">
-       </form> 
-       </div> 
-      </td>
-    </tr>
-  </table>
-
-  <p class="texte-alignment">
-   <a href="search.html" class="btn-green"> Filter <a/>
-  </p> 
-
-</div>
-  </div>
-<!-- End of our content -->
+ 
 
 </div>
   </form>
@@ -282,33 +169,7 @@
 </div>
 </footer>
 
-<script type="text/javascript">
-// Get the modal
-var modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
 </body>
 
