@@ -176,3 +176,8 @@ h9 {
   color: rgba(0,0,0,0.56);
  }
 
+.font-size{
+font-size: 12px;
+    font-style: italic;
+    color: #323A30;
+}
