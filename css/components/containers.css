@@ -36,6 +36,21 @@
   	color: rgba(0, 0, 0, 0.6);
 }
 
+.card-green2 {
+  background-color: #90AB8F;
+  width: 958px ;
+  height: 110px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;    line-height: 16px;
+  font-size: 12px;
+  box-shadow: 0 6px 5px rgba(0,0,0,.25);
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .card-picture {
 	width: 800px;
 	left: 391px;
