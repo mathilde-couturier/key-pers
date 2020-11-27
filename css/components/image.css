@@ -83,9 +83,3 @@
     padding-top: 20px;
  }
 
-#calendar {
-  width: 300px;
-  height: 300px;
-  filter: drop-shadow(0px 6px 5px rgba(0, 0, 0, 0.5));
-  padding: 20px;
-}
