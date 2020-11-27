@@ -72,6 +72,14 @@
 	margin-left: 0px;
 }
 
+.card-picture2 {
+  width: 350px;
+  left: 391px;
+  top: 562px;
+  margin: 20px auto;
+  float: right;
+}
+
 .card-design{
   padding:10px;
    background-color: #ffffff;
