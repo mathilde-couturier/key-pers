@@ -7,7 +7,6 @@
 	box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
 }
 
-
 /* CSS for page */
 
 .card-style {
@@ -54,15 +53,15 @@
 }
 
 .card-green3 {
-  background-color: #A5C0A0;
+ background-color: #A5C0A0;
   width: 240px ;
   height: 375px;
   margin: 20px 32px;
   box-shadow: 0 6px 5px rgba(0,0,0,.25);
-  line-height: 1px;
   color: rgba(50, 58, 48, 0.7);
-  padding-left: 50px;
-  margin-left: 0px;
+  padding: 10px 5px;
+  line-height: 15px;
+  margin-top: 60px;
 }
 
 .card-picture {
@@ -75,10 +74,7 @@
 
 .card-picture2 {
   width: 350px;
-  left: 391px;
-  top: 562px;
-  margin: 20px auto;
-  float: right;
+  margin-top: 30px;
 }
 
 .card-design{
@@ -223,24 +219,9 @@ border-radius: 5px;
     height: 90px;
 }
 
-.card-grey {
-  background-color: #DEDEDE;
-  width: 300px;
-  height: 10px;
-  margin-top: -30px;
-  margin-left: -45px;
-}
-.card-grey2 {
-  background-color: #DEDEDE;
-  width: 250px;
-  height: 10px;
-  margin-top: 10px;
-  margin-left: -45px;
-}
-.card-grey3 {
-  background-color: #DEDEDE;
-  width: 200px;
-  height: 10px;
-  margin-top: 10px;
-  margin-left: -45px;
+.flex-profile {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
 }
