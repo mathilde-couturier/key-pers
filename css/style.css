@@ -163,7 +163,7 @@ font-size: 12px;
 	    margin-top: -60px;
 }
 
-#description-style {
+#description-margin {
 	margin-top: -40px;
     text-shadow: none;
     color: #FD6437;
@@ -178,3 +178,5 @@ font-size: 12px;
     line-height: 33px;
     margin: 0px;
 }
+
+
