@@ -25,6 +25,10 @@ margin: 65px auto;
   padding: 3px;
 }
 
+.list-inline1 {
+  list-style: none;
+}
+
 .list-inline2 li {
   display: inline;
   }
