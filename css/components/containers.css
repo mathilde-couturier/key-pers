@@ -223,3 +223,24 @@ border-radius: 5px;
     height: 90px;
 }
 
+.card-grey {
+  background-color: #DEDEDE;
+  width: 300px;
+  height: 10px;
+  margin-top: -30px;
+  margin-left: -45px;
+}
+.card-grey2 {
+  background-color: #DEDEDE;
+  width: 250px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
+.card-grey3 {
+  background-color: #DEDEDE;
+  width: 200px;
+  height: 10px;
+  margin-top: 10px;
+  margin-left: -45px;
+}
